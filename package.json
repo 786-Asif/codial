@@ -4,15 +4,27 @@
   "description": "social website",
   "main": "index.js",
   "scripts": {
+    "sass-f":"sass --no-source-map --watch style/footer.scss assets/css/footer.css",
+    "sass-l":"sass --no-source-map --watch style/layout.scss assets/css/layout.css",
+    "sass-h":"sass --no-source-map --watch style/header.scss assets/css/header.css",
+    "sass-p":"sass --no-source-map --watch style/user_profile.scss assets/css/user_profile.css",
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "mohammad Asif",
   "license": "ISC",
   "dependencies": {
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.6",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "express-ejs-layouts": "^2.5.1",
-    "nodemon": "^2.0.22"
+    "express-session": "^1.17.3",
+    "mongoose": "^7.3.2",
+    "node-sass": "^9.0.0",
+    "nodemon": "^2.0.22",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "sass": "^1.63.6"
   }
 }

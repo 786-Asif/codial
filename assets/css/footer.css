@@ -1,0 +1,13 @@
+footer {
+  background-color: rgb(178, 32, 139);
+  font-size: 30px;
+  display: flex;
+  color: white;
+}
+footer a {
+  font-size: 30px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  margin-left: 100px;
+}

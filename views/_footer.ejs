@@ -1,3 +1,13 @@
 <footer>
-   Page footer
+  <ul>
+   <% if(locals.user){ %>
+      <li>
+        <a href="/"><h2> Back to Home</h2></a>
+        </li>
+        <% } else { %>
+         <li>
+          <h2>Created By ~ Mohammad Asif</h2>
+         </li>
+         <% } %>
+  </ul>
 </footer>
